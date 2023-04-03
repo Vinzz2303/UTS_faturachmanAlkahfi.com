@@ -1,0 +1,110 @@
+    body
+    {
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+   
+    #class-content
+		{
+			width: 50%; height: 100vh; background-color: aqua;
+   
+		}
+
+    #class-content2
+		{
+			width: 50%; height: 100%; background-color: aqua;
+		}
+
+    #class-content3
+		{
+			width: 50%; height: 100%; background-color: aqua;
+		}
+
+		#logo
+		{
+			width: 15%; text-align: center; margin-top: 20px;
+		}
+
+    #logo-2
+		{
+			width: 8%; 
+		}
+
+    #logo-3
+		{
+			width: 20%; 
+		}
+
+    #inspo{
+			width: 10%;
+		}
+		
+		#div2 {
+			margin-top: 50px;
+		  transform: rotate(0);
+		  -ms-transform: rotate(0);
+	
+		  -moz-transform: rotate(0);
+	
+		  -webkit-transform: rotate(0);
+	
+		  -o-transform: rotate(0);
+		  height: 200px;
+		}
+
+		#karakter
+		{
+			width: 20%;
+		}
+
+		#name
+		{
+			width: 50%;
+		}
+		
+		@media only screen and (max-width : 500px) {
+			#class-content
+			{
+				width: 100%; 
+			}
+
+      #class-content2
+			{
+				width: 100%; 
+			}
+
+
+      #class-content3
+      {
+        width: 100%; 
+      }
+
+			#logo
+			{
+				width: 35%;
+			}
+
+      #logo-2
+			{
+				width: 35%;
+			}
+
+      #logo-3
+      {
+        width: 35%; 
+      }
+
+			#karakter
+			{
+				width: 50%;
+			}
+
+      #inspo{
+          width: 20%;
+        }
+
+			#name
+			{
+				width: 60%;
+			}
+		}
